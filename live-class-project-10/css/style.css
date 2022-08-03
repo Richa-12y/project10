@@ -1,0 +1,215 @@
+*{
+     margin: 0;
+     padding: 0;
+     outline: 0;
+     font-family: 'Times New Roman', Times, serif;
+}
+body{
+     background-image: url("../projectFinalImage/pexels-maksim-goncharenok-4352247.jpg");
+     background-repeat: no-repeat;
+     background-size:cover;
+     cursor: pointer;
+     min-height: 100vh;
+     
+
+}
+.logo_container{
+     /* background-color: red; */
+     width: 15vw;
+     text-align: center;
+     min-height: 55px;
+     margin-top: 1em;
+}
+.logo_container h1{
+     text-transform:uppercase;
+     color: black;
+     font-weight: 700;
+}
+nav{
+     display: flex;
+     flex-direction: row;
+     /* background-color: aqua; */
+     width: 66%;
+     min-height: 55px;
+     position: relative;
+     align-items: center;
+     top: -17%;
+     margin-left: 25em;
+     
+}
+.nav-item{
+     margin: 2.3em;
+     font-size: 1em;
+     color: black;
+     font-weight: 700;
+}
+.nav-item-contact img{
+     width: 1.5em;
+     border-radius: 50%;
+}
+.nav-item-contact{
+     /* background-color: blue; */
+     display: flex;
+     width: 170px;
+     align-items: center;
+     justify-content: space-around;
+}
+nav::after{
+     content: "";
+     min-width: 790px !important;
+     height: 0.2em;
+     background-color: black;
+     top: 98%;
+     position: absolute;
+     left: 1.3em;
+}
+h1{
+     float: left;
+}
+.card_one_container img{
+     width: 50px;
+     height: 40px;
+     float: right;
+     margin-left: 70px;
+     margin-right: 70px;
+     
+}
+
+.card_one_container p{
+     float: right;
+}
+button{
+     text-transform: uppercase;
+     text-align: center;
+     border-radius: 30px;
+     border: 2px solid black;
+     padding: 1.5em 3.5em 1.5em 3.5em;
+     background-color: transparent;
+     color: black;
+     font-weight: 700;
+     margin-top: 4em;
+     margin-right: 30.5em;
+
+}
+.card_two_container img{
+     width: 50px;
+     height: 40px;
+     float: right;
+     margin-left: 70px;
+     margin-right: 70px;
+     
+}
+.card_two_container p{
+     margin-left: 1em;
+     padding: 0.4em;
+ }
+ .card_one_container p{
+     margin-left: 1em;
+     padding: 0.1em;
+ }
+
+ .main_container{
+     /* background-color: blue; */
+     position: relative;
+     width: 100%;
+     min-height: 81vh;
+
+ }
+ .card_one_container{
+     position: absolute;
+     right: 17%;
+     background-color:transparent;
+     display: flex;
+     flex-direction: column;
+     width: 200px;
+     height: 130px;
+     justify-content:space-around;
+     top:1%;
+      box-shadow: 5px 5px 2px 5px gray; 
+ }
+ .card_one_container::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:rgb(222, 209, 209);
+    top: 12rem;
+    position: absolute;
+    left: 9.9rem;
+
+
+ }
+
+ .card_one_container::before{
+     content: "";
+     width: 80px;
+     height: 2px;
+     background-color:rgb(222, 209, 209);
+     position: absolute;
+     transform: rotate(90deg);
+     top: 10.5rem;
+     left: 8rem;
+  }
+ .card_two_container::after{
+     content: "";
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     background-color:rgb(222, 209, 209);
+     position: absolute;
+     left: 17rem;
+     top: 28%;
+
+  }
+  .card_two_container::before{
+     content: "";
+     width: 80px;
+     height: 2px;
+     background-color:rgb(222, 209, 209);
+     position: absolute;
+     transform: rotate(180deg);
+     top: 3rem;
+     left: 100%;
+  }
+ .card_two_container{
+     position: absolute;
+     right: 35%;
+     top: 58%;
+     background-color:transparent;
+     display: flex;
+     flex-direction: column;
+     width: 200px;
+     height: 130px;
+     justify-content:space-around;
+     box-shadow: 5px 5px 2px 5px gray; 
+
+ }
+ .desc_container{
+     display: flex;
+     flex-direction: column;
+     /* background-color: brown; */
+     width:600px;
+     height: 300px;
+     align-items: center;
+     justify-content: center;
+     margin-left: 3.5em;
+
+ }
+ .desc_container h1{
+     /* padding: 1em; */
+     font-weight: 700;
+     font-size: 3.5em;
+     color: black;
+     font-stretch:extra-expanded;
+     line-height: normal;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .card_one_container>img{
+     border-radius: 40%;
+     margin-left: 1em;
+ }
+ .card_two_container>img{
+     border-radius: 40%;
+     margin-left: 1em;
+
+ }
